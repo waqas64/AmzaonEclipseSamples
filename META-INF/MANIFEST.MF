@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: A2E_AutoSeller
+Bundle-SymbolicName: A2E_AutoSeller;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: a2e_autoseller.Activator
+Bundle-Vendor: Muhammad Waqas Raza
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ swing2swt.jar,
+ lib/commons-codec.jar,
+ lib/commons-httpclient.jar,
+ lib/commons-io.jar,
+ lib/commons-logging.jar,
+ lib/dom4j.jar,
+ lib/log4j.jar
